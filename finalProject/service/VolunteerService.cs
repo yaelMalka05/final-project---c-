@@ -1,4 +1,6 @@
-﻿using entities;
+﻿using AutoMapper;
+using DTOs;
+using entities;
 
 using System;
 using System.Collections.Generic;
@@ -9,17 +11,11 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace service
 {
-    public class VolunteerService:IVolunteerService
+    public class VolunteerService(IVolunteerRepository repos , IMapper mapper)
     {
         //VolunteerRepository repos = new VolunteerRepository();
-        private readonly IVolunteerRepository repos;
 
-        public VolunteerService(IVolunteerRepository repos)
-        {
-            this.repos = repos;
-        }
-
-        public List<VolunteerToShow> GetAllVolunteerToShow(string sort)
+        public List<VolunteerToShow> GetAllVolunteerToShow(string? sort)
         {
             var list = repos.GetAllVolunteers();
             if (sort != null)
@@ -33,7 +29,7 @@ namespace service
 
             foreach (var v in list)
             {
-                volunteerToShows.Add(new VolunteerToShow(v.FullName, v.PhoneNumber , v.EmailAddress));
+                volunteerToShows.Add(new VolunteerToShow(v.FullName, v.PhoneNumber , v.EmailAddress , v.PersonalAreasOfExpertise?.Expertise));
             }
 
             return volunteerToShows;
@@ -42,23 +38,27 @@ namespace service
         public VolunteerToShow GetVolunteerByIdToShow(int id)
         {
             var v = repos.GetVolunteerById(id);
-            VolunteerToShow volunteerToShow = new VolunteerToShow(v.FullName, v.PhoneNumber,v.EmailAddress);
+            VolunteerToShow volunteerToShow = new VolunteerToShow(v.FullName, v.PhoneNumber,v.EmailAddress, v.PersonalAreasOfExpertise.Expertise);
             return volunteerToShow;
         }
 
 
 
-            public void AddVolunteer(VolunteerToAdd v)
+        public void AddVolunteer(VolunteerToAdd v)
         {
             List<Volunteer> list = repos.GetAllVolunteers().ToList();
 
             if (!list.Any(o => o.EmailAddress == v.EmailAddress))
             {
-                Volunteer volunteer = new Volunteer()
-                {Id = list.Count + 10,
-                    FullName = v.FullName,
-                    PhoneNumber = v.PhoneNumber,
-                    EmailAddress = v.EmailAddress};
+                //Volunteer volunteer = new Volunteer()
+                Volunteer volunteer = mapper.Map<Volunteer>(v);
+                //{
+                //Id = list.Count + 10,
+                //
+                //FullName = v.FullName,
+                //PhoneNumber = v.PhoneNumber,
+                //EmailAddress = v.EmailAddress};
+
 
                 repos.AddVolunteer(volunteer);
             }
@@ -98,28 +98,6 @@ namespace service
 
         }
 
-        //public List<Volunteer> GetAllVolunteerToShow(string sort);
-
-        List<Volunteer> IVolunteerService.GetAllVolunteerToShow(string sort)
-        {
-            throw new NotImplementedException();
-        }
-
-        Volunteer IVolunteerService.GetVolunteerByIdToShow(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void AddVolunteer(Volunteer v)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void updateVolunteer(int id, Volunteer volunteerToUpdate)
-        {
-            throw new NotImplementedException();
-        }
-
 
 
 
@@ -141,10 +119,26 @@ namespace service
         //    else
         //        throw new Exception("id volunteer was not found and can not be remove");
         //}
+        public void deleteVolunteer(int id)
+        {
+            try
+            {
+                repos.deleteVolunteer(id);
+            }
+            catch (Exception e) 
+            {
+                throw new Exception("id volunteer was not found and can not be remove");
+            } 
+        }
 
-
-
-
-
+        public  Volunteer ValidatUser(LoginDTO login)
+        {
+            var user = repos.GetEmail(login.Email);
+            if (user == null)
+                return null;
+            if (user.Password != login.Password)
+                return user;
+            return user;
+        }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\finalProject\\finalProject.csproj": {}
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\finalProject\\finalProject.csproj": {}
   },
   "projects": {
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\DTOs\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj",
-        "projectName": "entities",
-        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj",
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\DTOs\\DTOs.csproj",
         "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
-        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\obj\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,79 @@
         }
       }
     },
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\finalProject\\finalProject.csproj": {
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\finalProject\\finalProject.csproj",
-        "projectName": "finalProject",
-        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\finalProject\\finalProject.csproj",
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj",
+        "projectName": "entities",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj",
         "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
-        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\finalProject\\obj\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\finalProject\\finalProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\finalProject\\finalProject.csproj",
+        "projectName": "finalProject",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\finalProject\\finalProject.csproj",
+        "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\finalProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,14 +163,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
-                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj"
+              "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj"
               },
-              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj": {
-                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj"
+              "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj"
               },
-              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\service.csproj": {
-                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\service.csproj"
+              "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\service\\service.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\service\\service.csproj"
               }
             }
           }
@@ -125,6 +190,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -134,6 +203,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[16.1.1, )"
             }
           },
           "imports": [
@@ -159,14 +232,14 @@
         }
       }
     },
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj": {
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj",
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj",
         "projectName": "repository",
-        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj",
         "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
-        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\obj\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -188,8 +261,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
-                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj"
+              "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj"
               }
             }
           }
@@ -240,14 +313,14 @@
         }
       }
     },
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\service.csproj": {
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\service\\service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\service.csproj",
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\service\\service.csproj",
         "projectName": "service",
-        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\service.csproj",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\service\\service.csproj",
         "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
-        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\obj\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -269,8 +342,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
-                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj"
+              "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\DTOs\\DTOs.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\DTOs\\DTOs.csproj"
+              },
+              "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj"
               }
             }
           }
@@ -289,6 +365,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[16.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -136,6 +136,9 @@ namespace repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("PersonalAreasOfExpertiseId")
                         .HasColumnType("int");
 

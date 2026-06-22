@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj": {}
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj": {}
   },
   "projects": {
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj",
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj",
         "projectName": "entities",
-        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj",
         "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
-        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\obj\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj": {
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj",
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj",
         "projectName": "repository",
-        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\repository.csproj",
         "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
-        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\obj\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
-                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj"
+              "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj"
               }
             }
           }

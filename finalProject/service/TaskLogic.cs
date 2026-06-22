@@ -19,7 +19,7 @@ namespace service
 namespace service
 {
     public record TaskToShow(int Id,string TaskDescription, string Date,
-        string Location , string Status , string TaskType , string urgency);
+        string Location , string? Status , string? TaskType , string? urgency);
 }
 namespace service
 {

@@ -9,3 +9,14 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\entities\obj\
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\entities\obj\Debug\net8.0\refint\entities.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\entities\obj\Debug\net8.0\entities.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\entities\obj\Debug\net8.0\ref\entities.dll
+H:\יד\מלכה יעל\c#\api\finalProject\entities\bin\Debug\net8.0\entities.deps.json
+H:\יד\מלכה יעל\c#\api\finalProject\entities\bin\Debug\net8.0\entities.dll
+H:\יד\מלכה יעל\c#\api\finalProject\entities\bin\Debug\net8.0\entities.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\entities.GeneratedMSBuildEditorConfig.editorconfig
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\entities.AssemblyInfoInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\entities.AssemblyInfo.cs
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\entities.csproj.CoreCompileInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\entities.dll
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\refint\entities.dll
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\entities.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\entities\obj\Debug\net8.0\ref\entities.dll

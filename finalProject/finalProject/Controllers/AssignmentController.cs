@@ -1,6 +1,7 @@
 ﻿using entities;
 using Microsoft.AspNetCore.Mvc;
-//using repository;
+
+
 using service;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,27 +10,22 @@ namespace finalProject.Controllers
 {
     [Route("api/[controller]Assignment")]
     [ApiController]
-    public class AssignmentController : ControllerBase
+    public class AssignmentController(AssignmentService serv) : ControllerBase
     {
 
         //AssignmentService serv = new AssignmentService();
-        private readonly IAssignmentService serv;
-        public AssignmentController(IAssignmentService assignmentService)
-        {
-            serv = assignmentService;
-        }
 
 
         // GET: api/<AssignmentController>
         [HttpGet]
-        public List<Assignment> Get()
+        public List<AssignmentToShow> Get()
         {
-            return serv.GetAllAssignmentToShow().ToList();
+            return serv.GetAllAssignmentToShow();
         }
 
         // GET api/<AssignmentController>/5
         [HttpGet("{id}")]
-        public Assignment Get(int id)
+        public AssignmentToShow Get(int id)
         {
             return serv.GetAssignmentByIdToShow(id);
         }
@@ -42,7 +38,7 @@ namespace finalProject.Controllers
 
         // PUT api/<AssignmentController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Assignment value)
+        public ActionResult Put(int id, [FromBody] AssignmentToUpdate value)
         {
             try
             {

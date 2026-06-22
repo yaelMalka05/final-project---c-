@@ -10,6 +10,8 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\entities.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\repository.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\repository.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\entities.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\obj\Debug\net8.0\finalProject.csproj.AssemblyReference.cache
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\obj\Debug\net8.0\finalProject.GeneratedMSBuildEditorConfig.editorconfig
@@ -34,17 +36,31 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\obj\Debug\net8.0\ref\finalProject.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\service.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\service.pdb
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Azure.Core.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Azure.Identity.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Humanizer.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Mono.TextTemplating.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.CodeDom.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -52,6 +68,14 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Composition.Hosting.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Composition.Runtime.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Drawing.Common.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Memory.Data.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Security.Permissions.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Windows.Extensions.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -104,28 +128,6 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Azure.Core.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Azure.Identity.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Drawing.Common.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Memory.Data.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Runtime.Caching.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Security.Permissions.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\System.Windows.Extensions.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -138,5 +140,154 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\repository.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\finalProject\bin\Debug\net8.0\repository.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\appsettings.Development.json
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\appsettings.json
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\finalProject.exe
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\finalProject.deps.json
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\finalProject.runtimeconfig.json
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\finalProject.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\finalProject.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Azure.Core.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Azure.Identity.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Humanizer.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.CodeDom.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Composition.Convention.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Drawing.Common.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Memory.Data.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Security.Permissions.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\entities.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\repository.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\service.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\entities.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\service.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\repository.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.csproj.AssemblyReference.cache
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.GeneratedMSBuildEditorConfig.editorconfig
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.AssemblyInfoInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.AssemblyInfo.cs
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.csproj.CoreCompileInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.MvcApplicationPartsAssemblyInfo.cs
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.MvcApplicationPartsAssemblyInfo.cache
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\staticwebassets.build.json
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\staticwebassets.development.json
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\staticwebassets\msbuild.finalProject.Microsoft.AspNetCore.StaticWebAssets.props
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\staticwebassets\msbuild.build.finalProject.props
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.finalProject.props
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.finalProject.props
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\staticwebassets.pack.json
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\scopedcss\bundle\finalProject.styles.css
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalPro.89E8D4F4.Up2Date
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\refint\finalProject.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\finalProject.genruntimeconfig.cache
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\obj\Debug\net8.0\ref\finalProject.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\AutoMapper.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\DTOs.dll
+H:\יד\מלכה יעל\c#\api\finalProject\finalProject\bin\Debug\net8.0\DTOs.pdb

@@ -16,7 +16,8 @@ namespace service
 }
 namespace service
 {
-    public record VolunteerToShow(string FullName, string PhoneNumber, string EmailAddress);
+    public record VolunteerToShow(string FullName, string PhoneNumber, string EmailAddress , string? personalAreasOfExpertise);
+
 
 }
 namespace service

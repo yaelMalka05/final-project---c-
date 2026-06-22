@@ -8,20 +8,14 @@ using System.Threading.Tasks;
 
 namespace service
 {
-    public class AssignmentService:IAssignmentService
+    public class AssignmentService(IAssignmentRepository repos)
     {
         //AssignmentRepository repos = new AssignmentRepository();
-        private readonly IAssignmentRepository repos;
-
-        public AssignmentService(IAssignmentRepository repos)
-        {
-            this.repos = repos;
-        }
 
 
         public List<AssignmentToShow> GetAllAssignmentToShow()
         {
-            List<Assignment> list = repos.GetAllAssignments().ToList().ToList();
+            List<Assignment> list = repos.GetAllAssignments();
 
             List<AssignmentToShow> assignmentToShows = new List<AssignmentToShow>();
 
@@ -57,19 +51,11 @@ namespace service
             else throw new Exception("assignment was not found");
         }
 
-        public void updateAssignment(int id, Assignment assignmentToUpdate)
-        {
-            throw new NotImplementedException();
-        }
 
-        List<Assignment> IAssignmentService.GetAllAssignmentToShow()
-        {
-            throw new NotImplementedException();
-        }
 
-        Assignment IAssignmentService.GetAssignmentByIdToShow(int id)
-        {
-            throw new NotImplementedException();
-        }
+
+
+
+
     }
 }

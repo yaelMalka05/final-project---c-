@@ -1,6 +1,6 @@
 ﻿using entities;
 using Microsoft.AspNetCore.Mvc;
-//using repository;
+
 using service;
 using System.Globalization;
 
@@ -11,35 +11,30 @@ namespace finalProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TaskController : ControllerBase
+    public class TaskController (TaskService serv) : ControllerBase
     {
 
         //TaskService serv = new TaskService();
-        private readonly ITaskService serv;
-        public TaskController(ITaskService taskService)
-        {
-            serv = taskService;
-        }
 
 
         // GET: api/<TaskController>
         [HttpGet]
-        public List<Task> Get([FromQuery] string? date , string? urgency)
+        public List<TaskToShow> Get([FromQuery] string? date , string? urgency)
         {
 
-            return serv.GetAllTaskToShow(date , urgency).ToList();
+            return serv.GetAllTaskToShow(date , urgency);
         }
 
         // GET api/<TaskController>/5
         [HttpGet("{id}")]
-        public Task Get(int id)
+        public TaskToShow Get(int id)
         {
             return serv.GetTaskByIdToShow(id);
         }
 
         // POST api/<TaskController>
         [HttpPost]
-        public ActionResult Post([FromBody] Task value)
+        public ActionResult Post([FromBody] TaskToAdd value)
         {
             try
             {
@@ -54,7 +49,7 @@ namespace finalProject.Controllers
 
         // PUT api/<TaskController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Task value)
+        public ActionResult Put(int id, [FromBody] TaskToUpdate value)
         {
             try
             {
@@ -82,13 +77,13 @@ namespace finalProject.Controllers
         }
 
         [HttpGet("Open")]
-        public IEnumerable<Task> GetOpenedTasks()
+        public IEnumerable<TaskToShow> GetOpenedTasks()
         {
             return serv.GetOpenTask();
         }
 
         [HttpGet("filter")]
-        public IEnumerable<Task> GetFilterTasks([FromQuery] string? date, string? location)
+        public IEnumerable<TaskToShow> GetFilterTasks([FromQuery] string? date, string? location)
         {
             return serv.FilterT(date , location);
         }

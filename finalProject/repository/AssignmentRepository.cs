@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace repository
 {
-    public class AssignmentRepository
+    public class AssignmentRepository(DataProject dataProject):IAssignmentRepository
     {
-        DataProject dataProject = new DataProject();
+        //DataProject dataProject = new DataProject();
         public List<Assignment> GetAllAssignments() => dataProject.Assignments.ToList();
 
         public Assignment GetAssignmentById(int idcode) => dataProject.Assignments.FirstOrDefault(a => a.Id == idcode);

@@ -2,7 +2,9 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\D
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\service.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\service.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\entities.dll
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\repository.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\entities.pdb
+H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\repository.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\service.csproj.AssemblyReference.cache
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\service.GeneratedMSBuildEditorConfig.editorconfig
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\service.AssemblyInfoInputs.cache
@@ -13,3 +15,20 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\D
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\refint\service.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\service.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\ref\service.dll
+H:\יד\מלכה יעל\c#\api\finalProject\service\bin\Debug\net8.0\service.deps.json
+H:\יד\מלכה יעל\c#\api\finalProject\service\bin\Debug\net8.0\service.dll
+H:\יד\מלכה יעל\c#\api\finalProject\service\bin\Debug\net8.0\service.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\service\bin\Debug\net8.0\entities.dll
+H:\יד\מלכה יעל\c#\api\finalProject\service\bin\Debug\net8.0\entities.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.csproj.AssemblyReference.cache
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.GeneratedMSBuildEditorConfig.editorconfig
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.AssemblyInfoInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.AssemblyInfo.cs
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.csproj.CoreCompileInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.csproj.Up2Date
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.dll
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\refint\service.dll
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\service.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\service\obj\Debug\net8.0\ref\service.dll
+H:\יד\מלכה יעל\c#\api\finalProject\service\bin\Debug\net8.0\DTOs.dll
+H:\יד\מלכה יעל\c#\api\finalProject\service\bin\Debug\net8.0\DTOs.pdb

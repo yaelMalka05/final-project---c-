@@ -1,0 +1,11 @@
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\bin\Debug\net8.0\DTOs.deps.json
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\bin\Debug\net8.0\DTOs.dll
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\bin\Debug\net8.0\DTOs.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\DTOs.dll
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\DTOs.pdb
+H:\יד\מלכה יעל\c#\api\finalProject\DTOs\obj\Debug\net8.0\ref\DTOs.dll

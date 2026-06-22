@@ -10,36 +10,32 @@ using TaskStatus = entities.TaskStatus;
 
 namespace service
 {
-    public class TaskService:ITaskService
+    public class TaskService(ITaskRepository repos)
     {
 
         //TaskRepository repos = new TaskRepository();
-        private readonly IPossibleTaskRepository repos;
-
-        public TaskService(IPossibleTaskRepository repos)
-        {
-            this.repos = repos;
-        }
 
 
         public List<TaskToShow> GetAllTaskToShow(string date , string urgency)
         {
-            var list = repos.GetAllTasks();
+            var list = repos.GetAllTasks().ToList();
 
             if (date != null)
             {
-                list = list.OrderBy(tasks => tasks.Date);
+                list = list.OrderBy(tasks => tasks.Date).ToList();
             }
             if (urgency != null) { 
-                 list = list.OrderBy(task => task.Urgency);
+                 list = list.OrderBy(task => task.Urgency).ToList();
             }
 
             List<TaskToShow> taskToShows = new List<TaskToShow>();
-
+            string type;
             foreach (var t in list)
             {
-                taskToShows.Add(new TaskToShow(t.Id, t.TaskDescription, t.Date.ToString(),
-                    t.Location, t.Status.ToString(), t.TaskTypeId.ToString(), t.Urgency.ToString()));
+                if (t.TaskTypeId == null)
+                    type = "unknown";
+                taskToShows.Add(new TaskToShow(t.Id, t.TaskDescription, t.Date?.ToString(),
+                    t.Location, t.Status.ToString(), t.TaskTypeId.Expertise, t.Urgency.ToString()));
             }
 
             return taskToShows;
@@ -65,7 +61,7 @@ namespace service
             {
                 PossibleTask possibleTask = new PossibleTask()
                 {
-                    Id = list.Count + 10,
+                    //Id = list.Count + 10,
                     TaskDescription = t.TaskDescription,
                     Date = t.Date,
                     Location = t.Location,
@@ -182,34 +178,8 @@ namespace service
 
         }
 
-        List<Task> ITaskService.GetAllTaskToShow(string date, string urgency)
-        {
-            throw new NotImplementedException();
-        }
 
-        Task ITaskService.GetTaskByIdToShow(int id)
-        {
-            throw new NotImplementedException();
-        }
 
-        public void AddPossibleTask(Task t)
-        {
-            throw new NotImplementedException();
-        }
 
-        public void UpdateTask(int id, Task taskToUpdate)
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerable<Task> ITaskService.GetOpenTask()
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerable<Task> ITaskService.FilterT(string? date, string? location)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

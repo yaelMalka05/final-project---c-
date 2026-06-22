@@ -8,35 +8,29 @@ namespace finalProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VolunteerController : ControllerBase
+    public class VolunteerController(VolunteerService serv) : ControllerBase
     {
 
         //VolunteerService serv = new VolunteerService();
-        private readonly IVolunteerService serv;
-        public VolunteerController(IVolunteerService volunteerService)
-        {
-            serv = volunteerService;
-        }
-
 
 
         // GET: api/<VolunteerController>
         [HttpGet]
-        public List<Volunteer> Get([FromQuery] string? sort)
+        public List<VolunteerToShow> Get([FromQuery] string? sort)
         {
-            return serv.GetAllVolunteerToShow(sort).ToList();
+            return serv.GetAllVolunteerToShow(sort);
         }
 
         // GET api/<VolunteerController>/5
         [HttpGet("{id}")]
-        public Volunteer Get(int id)
+        public VolunteerToShow Get(int id)
         {
             return serv.GetVolunteerByIdToShow(id);
         }
 
         // POST api/<VolunteerController>
         [HttpPost]
-        public ActionResult Post([FromBody] Volunteer value)
+        public ActionResult Post([FromBody] VolunteerToAdd value)
         {
             try
             {
@@ -51,7 +45,7 @@ namespace finalProject.Controllers
 
         // PUT api/<VolunteerController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Volunteer value)
+        public ActionResult Put(int id, [FromBody] VolunteerToUpdate value)
         {
             try
             {
@@ -66,17 +60,17 @@ namespace finalProject.Controllers
 
         // DELETE api/<VolunteerController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(int id)
         {
-            //try
-            //{
-            //    serv.deleteVolunteer(id);
-            //    return Ok($"{id} volunteer deleted successfully");
-            //}
-            //catch (Exception exc)
-            //{
-            //    return BadRequest(exc.Message);
-            //}
+            try
+            {
+                serv.deleteVolunteer(id);
+                return Ok($"{id} volunteer deleted successfully");
+            }
+            catch (Exception exc)
+            {
+                return BadRequest(exc.Message);
+            }
         }
 
 

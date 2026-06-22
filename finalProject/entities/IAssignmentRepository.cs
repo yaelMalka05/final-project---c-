@@ -8,8 +8,10 @@ namespace entities
 {
     public interface IAssignmentRepository
     {
-        IEnumerable<Assignment> GetAllAssignments();
-        Assignment GetAssignmentById(int id);
-        void UpdateAssignment(Assignment foundAssignment);
+        List<Assignment> GetAllAssignments();
+        Assignment GetAssignmentById(int idcode);
+        void AddAssignment(Assignment assignment);
+        void UpdateAssignment(Assignment assignment);
+
     }
 }

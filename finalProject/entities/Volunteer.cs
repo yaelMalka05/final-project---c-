@@ -29,6 +29,6 @@ namespace entities
         //public List<AreasOfExpertise> PersonalAreasOfExpertise { get; private set; } = new List<AreasOfExpertise>();
         public int? PersonalAreasOfExpertiseId { get; set; }
         public AreasOfExpertise? PersonalAreasOfExpertise { get; set; }
-
+        public string? Password { get; set; }
     }
 }

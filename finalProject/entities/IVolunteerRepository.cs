@@ -12,5 +12,8 @@ namespace entities
         Volunteer GetVolunteerById(int id);
         void AddVolunteer(Volunteer volunteer);
         void UpdateVolunteer(Volunteer foundVolunteer);
+        void deleteVolunteer(int id);
+        Volunteer GetEmail(string EmailAddress);
+
     }
 }

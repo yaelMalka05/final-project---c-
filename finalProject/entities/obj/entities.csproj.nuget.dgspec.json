@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {}
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {}
   },
   "projects": {
-    "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
+    "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj",
+        "projectUniqueName": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj",
         "projectName": "entities",
-        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj",
+        "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\entities.csproj",
         "packagesPath": "C:\\Users\\hand\\.nuget\\packages\\",
-        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\obj\\",
+        "outputPath": "H:\\יד\\מלכה יעל\\c#\\api\\finalProject\\entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
