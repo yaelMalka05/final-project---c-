@@ -101,6 +101,9 @@
               "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
                 "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj"
               },
+              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj": {
+                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj"
+              },
               "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\service.csproj": {
                 "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\service\\service.csproj"
               }
@@ -268,9 +271,6 @@
             "projectReferences": {
               "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj": {
                 "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\entities\\entities.csproj"
-              },
-              "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj": {
-                "projectPath": "H:\\יד\\מלכה יעל\\c#\\api\\פרויקט גמר C#\\finalProject\\repository\\repository.csproj"
               }
             }
           }

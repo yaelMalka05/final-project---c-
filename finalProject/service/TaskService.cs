@@ -1,5 +1,5 @@
 ﻿using entities;
-using repository;
+
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,10 +10,16 @@ using TaskStatus = entities.TaskStatus;
 
 namespace service
 {
-    public class TaskService
+    public class TaskService:ITaskService
     {
 
-        TaskRepository repos = new TaskRepository();
+        //TaskRepository repos = new TaskRepository();
+        private readonly IPossibleTaskRepository repos;
+
+        public TaskService(IPossibleTaskRepository repos)
+        {
+            this.repos = repos;
+        }
 
 
         public List<TaskToShow> GetAllTaskToShow(string date , string urgency)
@@ -176,8 +182,34 @@ namespace service
 
         }
 
+        List<Task> ITaskService.GetAllTaskToShow(string date, string urgency)
+        {
+            throw new NotImplementedException();
+        }
 
+        Task ITaskService.GetTaskByIdToShow(int id)
+        {
+            throw new NotImplementedException();
+        }
 
+        public void AddPossibleTask(Task t)
+        {
+            throw new NotImplementedException();
+        }
 
+        public void UpdateTask(int id, Task taskToUpdate)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Task> ITaskService.GetOpenTask()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Task> ITaskService.FilterT(string? date, string? location)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

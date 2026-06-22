@@ -1,5 +1,5 @@
 ﻿using entities;
-using repository;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +9,15 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace service
 {
-    public class VolunteerService
+    public class VolunteerService:IVolunteerService
     {
-        VolunteerRepository repos = new VolunteerRepository();
+        //VolunteerRepository repos = new VolunteerRepository();
+        private readonly IVolunteerRepository repos;
 
+        public VolunteerService(IVolunteerRepository repos)
+        {
+            this.repos = repos;
+        }
 
         public List<VolunteerToShow> GetAllVolunteerToShow(string sort)
         {
@@ -93,6 +98,28 @@ namespace service
 
         }
 
+        //public List<Volunteer> GetAllVolunteerToShow(string sort);
+
+        List<Volunteer> IVolunteerService.GetAllVolunteerToShow(string sort)
+        {
+            throw new NotImplementedException();
+        }
+
+        Volunteer IVolunteerService.GetVolunteerByIdToShow(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddVolunteer(Volunteer v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void updateVolunteer(int id, Volunteer volunteerToUpdate)
+        {
+            throw new NotImplementedException();
+        }
+
 
 
 
@@ -116,7 +143,7 @@ namespace service
         //}
 
 
-        
+
 
 
     }

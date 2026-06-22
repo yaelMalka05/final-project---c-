@@ -2,9 +2,7 @@ H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\D
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\service.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\service.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\entities.dll
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\repository.dll
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\entities.pdb
-H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\bin\Debug\net8.0\repository.pdb
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\service.csproj.AssemblyReference.cache
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\service.GeneratedMSBuildEditorConfig.editorconfig
 H:\יד\מלכה יעל\c#\api\פרויקט גמר C#\finalProject\service\obj\Debug\net8.0\service.AssemblyInfoInputs.cache

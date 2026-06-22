@@ -1,4 +1,8 @@
 
+using entities;
+using repository;
+using service;
+
 namespace finalProject
 {
     public class Program
@@ -14,7 +18,14 @@ namespace finalProject
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            var app = builder.Build();
+            builder.Services.AddScoped<IVolunteerService, VolunteerService>();
+            //builder.Services.AddScoped<IVolunteerRepository , VolunteerRepository>();
+            builder.Services.AddTransient<IVolunteerRepository, VolunteerRepository>();
+
+
+
+
+         var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
